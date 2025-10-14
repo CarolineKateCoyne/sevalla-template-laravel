@@ -15,7 +15,7 @@ All services are managed by **supervisord**. The default start commands are in [
 
 ### 1. Prepare your repository
 
-1. Copy this repository’s `Dockerfile` and `entrypoint.sh` files into the **root** of your Laravel project. Or just clone this repository if you are starting from scratch.
+Copy this repository’s `Dockerfile` and `entrypoint.sh` files into the **root** of your Laravel project. Or just clone this repository if you are starting from scratch.
 
 ### 2. Create Sevalla resources
 
