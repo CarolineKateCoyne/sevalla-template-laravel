@@ -46,6 +46,7 @@ All services are managed by **supervisord**. The default start commands are in [
 Set the following in **App → Environment variables**. Fill in any empty values for your setup.
 
 **Notes:**
+- Set `DB_CONNECTION` with the value matching the database you created in step **B**. E.g., `mysql` or `pgsql`.
 - `DB_URL` is automatically added if you completed step **B**.
 - **Set `APP_URL` and `ASSET_URL` to your Sevalla app URL (e.g., `https://your-app.sevalla.app` or your custom domain).**
 - Ensure `APP_KEY` is set (e.g., via `php artisan key:generate`).
