@@ -34,7 +34,7 @@ Copy this repository’s `Dockerfile` and `entrypoint.sh` files into the **root*
    php artisan migrate --force
    ```
 
-<img width="440" src="https://github.com/user-attachments/assets/7af80896-c431-4cd4-b5f0-5034b2c65d23" />
+<img width="540" src="https://github.com/user-attachments/assets/7af80896-c431-4cd4-b5f0-5034b2c65d23" />
 
 #### B. Allow internal connections between the app and database
 
@@ -57,7 +57,7 @@ Set the following in **App → Environment variables**. Fill in any empty values
 1. Go to **App → Processes → Create process → Background worker**.
 2. Set the custom start command to `php artisan schedule:work`.
 
-<img width="440" height="1152" src="https://github.com/user-attachments/assets/78224eac-66d0-4a49-b128-4087a31b37b5" />
+<img width="540" height="1152" src="https://github.com/user-attachments/assets/78224eac-66d0-4a49-b128-4087a31b37b5" />
 
 #### E. Start your default queue
 
@@ -68,7 +68,7 @@ Set the following in **App → Environment variables**. Fill in any empty values
 
 Go to **App → Settings → Build** and change **Build environment** to **Dockerfile**.
 
-<img width="373" src="https://github.com/user-attachments/assets/b074529e-3f51-471d-aa89-9a585dda2e5a" />
+<img width="473" src="https://github.com/user-attachments/assets/b074529e-3f51-471d-aa89-9a585dda2e5a" />
 
 ### 4. Deploy 🚀
 
